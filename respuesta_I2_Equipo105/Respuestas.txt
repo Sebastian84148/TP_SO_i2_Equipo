@@ -1,0 +1,53 @@
+E - 
+## 1 - Crear repositorio
+
+1. Se crea el repositorio desde la pagina de GitHub.
+2. Se comparte el repositorio original con los compañeros.
+
+## 2 & 3 - Hacer FORK
+
+1. Vamos a la pagina del repositorio que queremos hacer el “fork” y hacemos click en el botón “fork”.
+2. Clonamos el repositorio “fork” en nuestra maquina local. Usamos el comando `git clone` y el link del repositorio fork.
+3. Entramos en el directorio del repositorio. Usamos `cd` y el nombre del repositorio.
+4. Fuera de la consola, abrimos el archivo y agregamos todos los datos que nos piden.
+5. `git add .` : Esto agrega todo lo que sea nuevo y no este en el repositorio.
+6. `git commit -m`: Comiteamos y entre comillas (“ ”) agregamos el comentario deseado.
+7. `git push origin main`: Hacemos el push de los cambios al repositorio fork.
+
+## 4 - Crear en el repositorio un archivo llamado NuevoDato.txt
+
+1. `git clone <URL>` : Para clonar el repositorio y tenerlo en forma local.
+2. `cd` : Para entrar en la carpeta del repositorio.
+3. `touch NuevoDato.txt` : Para crear el archivo txt.
+
+## 5 - Actualizar el FORK al ultimo estado del repositorio original.
+
+1. `git remote add upstream "URL del repositorio"` : Sincroniza un fork con el repositorio original.
+2. `git fetch upstream` : Trae los cambios del repositorio original.
+3. `git merge upstream/main` : Fusionar los cambios del repositorio original.
+4. `git push origin main` : Enviar los cambios actualizados a tu fork en GitHub.
+
+## 6 - Crear “respuesta_I2_EquipoX”
+
+1. `mkdir respuesta_I2_EquipoX` : Dentro de la carpeta del repositorio para crear la carpeta.
+2. `cd respuesta_I2_EquipoX` : Para entrar dentro del directorio.
+3. `touch Respuestas` : Para crear el archivo txt que contiene las respuestas de las preguntas.
+4. `touch Integrantes` : Para crear el archivo txt que contiene los integrantes del grupo.
+
+## Actualizar FORK ALFA al estado del FORK GAMMA
+
+1. Alfa entra el directorio de su FORK y ejecuta el comando: `git remote add fork-gamma` y el link del FORK de GAMMA.
+2. `git fetch fork-gamma` : Para descargar los cambios del FORK de GAMMA.
+3. `git merge fork-gamma/main` : Para fusionar los cambios de la rama main del FORK de GAMMA a la rama local de ALFA.
+4. `git push origin main` : Hacemos el push de los cambios.
+
+### Hacer lo necesario para que las respuestas y los cambios realizados en los FORK se vean reflejados en la versión final del repositorio
+
+Creamos un pull request (PR) para integrar los cambios.
+
+1. Una vez hecho todos los cambios en el fork, y habiendo hecho todos los pasos necesarios (agregarlos, comitearlos y subirlos).
+2. Vamos a nuestro repositorio forkeado en GitHub.
+3. Hacemos clic en pull eequest y luego en new pull request.
+4. Nos aseguramos que la rama de origen sea la de nuestro fork y la rama destino sea la del repositorio original.
+5. Agregamos un titulo y una descripcion explicando los cambios realizados.
+6. Enviamos la solicitud.
