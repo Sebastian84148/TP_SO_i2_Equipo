@@ -1,3 +1,5 @@
+C - Si, GAMMA puede realizar una actualizacion de su fork al estado del fork de ALFA
+D - No perderia ningun archivo editado por mi en caso de querer actualizar el fork
 E - 
 ## 1 - Crear repositorio
 
