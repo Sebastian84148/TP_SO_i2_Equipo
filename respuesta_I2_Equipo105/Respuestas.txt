@@ -1,3 +1,6 @@
+
+A- Al ejecutar el comando "git pull origin" en la terminal ubicandonos en la carpeta principal podremos actualizar el total del repositorio local con todas las nuevas modificaciones que haya sufrido el repositorio al que le hicimos el Fork que se encuentra en la web.
+B- No podra actualizarlo ya que el fork de cada usuario es independiente al repositorio original y esta almacenado de forma local impidiendo su accedo a menos que se suba a la web.
 C - Si, GAMMA puede realizar una actualizacion de su fork al estado del fork de ALFA
 D - No perderia ningun archivo editado por mi en caso de querer actualizar el fork
 E - 
@@ -53,3 +56,4 @@ Creamos un pull request (PR) para integrar los cambios.
 4. Nos aseguramos que la rama de origen sea la de nuestro fork y la rama destino sea la del repositorio original.
 5. Agregamos un titulo y una descripcion explicando los cambios realizados.
 6. Enviamos la solicitud.
+
