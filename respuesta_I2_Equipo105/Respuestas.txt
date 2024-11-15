@@ -1,16 +1,6 @@
 
 a-¿Cómo actualizo mi repositorio, al estado que esté el repo que hice FORK?
-a- Al ejecutar el comando "git pull origin" en la terminal dentro ubicandonos en la carpeta principal podremos actualizar el total del repositorio local con todas las nuevas modificaciones que haya sufrido el repositorio al que le hicimos el Fork.
+a- Al ejecutar el comando "git pull origin" en la terminal ubicandonos en la carpeta principal podremos actualizar el total del repositorio local con todas las nuevas modificaciones que haya sufrido el repositorio al que le hicimos el Fork que se encuentra en la web.
 
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
-b- No podra actualizarlo ya que el fork de cada usuario esta almacenado de forma local impidiendo su accedo mediante Github.
-
-c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
-
-
-d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
-el fork?
-
-
-e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
-orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos.
+b- No podra actualizarlo ya que el fork de cada usuario es independiente al repositorio original y esta almacenado de forma local impidiendo su accedo a menos que se suba a la web.
